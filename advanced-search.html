@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Search</title>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="/css/search-advanced.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
-    
+  
+    <!-- navigation section -->
+    <div class="navigation">
+        <a href="/index.html"><img src="/img/google-logo.png" alt="brand-logo" class="brand-logo"></a>
+        <button class="sign-in-button"><a href="https://accounts.google.com/">Sign In</a></button>
+    </div>
+
+    <!-- advance search button -->
+     <div class="advanced-search-form">
+        <form class="advanced-search-form" action="https://www.google.com/search" method="GET">
+            <legend class="form-title">Advanced Search</legend>
+            <label class="form-description">Find pages with</label>
+
+            <div class="form-group">
+                <label for="all-words">All these words:</label>
+                <input type="text" id="all-words" name="as_q">
+            </div>
+
+            <div class="form-group">
+                <label for="exact-phrase">This exact word or phrase:</label>
+                <input type="text" id="exact-phrase" name="as_epq">
+            </div>
+
+            <div class="form-group">
+                <label for="none-words">None of these words:</label>
+                <input type="text" id="none-words" name="as_eq">
+            </div>
+
+            <div class="form-group">
+                <label for="site-domain">Site or domain:</label>
+                <input type="text" id="site-domain" name="as_sitesearch">
+            </div>
+
+            <button type="submit">Advanced Search</button>
+
+        </form>
+     </div>
+
+
 </body>
 </html>

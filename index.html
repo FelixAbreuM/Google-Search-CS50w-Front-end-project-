@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -32,20 +32,17 @@
         <div class="search-form">
             <form action="https://www.google.com/search">
                 <div class="user-input-container">
-                    <div class="mic-container">
-                        <button type="button" class="mic"><span class="material-symbols-outlined">mic</span></button>
+                    <div class="search-icon-container">
+                        <button type="submit" class="search-icon"><span class="material-symbols-outlined">search</span></button>
                     </div>
                     <div class="input-container">
                         <input type="text" name="q" class="user-input">    
                     </div>
-                    <div class="search-icon-container">
-                        <button type="submit" class="search-icon"><span class="material-symbols-outlined">search</span></button>
-                    </div>
                 </div>
                 
                 <div class="submit-buttons">
-                    <button type="submit">Google Search</button>
-                    <button type="submit">I'm Feeling Lucky</button>
+                    <button type="submit" name="btnK" value="Google Search">Google Search</button>
+                    <button type="submit" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
                 </div>
             </form>
         </div>
@@ -63,8 +60,8 @@
         </div>
         <div class="section-3">
             <a href="https://policies.google.com/privacy" class="footer-link">Privacy</a>
-            <a href="https://policies.google.com/terms" class="footer-link">Terms</a>   
-            <button>Settings</button>
+            <a href="https://policies.google.com/terms" class="footer-link">Terms</a>  
+            <a href="/advanced-search.html" class="footer-link">Advanced Search</a>  
         </div>
     </div>
 
