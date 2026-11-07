@@ -170,10 +170,11 @@ a:hover {
   justify-content: flex-start;
 }
 
-.mic, .search-icon{
+.search-icon{
   background: transparent;
   border: none;
   cursor: pointer;
+  margin-right: var(--space-2);
 }
 
 .user-input{

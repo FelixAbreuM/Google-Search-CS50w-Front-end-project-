@@ -153,10 +153,11 @@ a:hover {
   justify-content: flex-start;
 }
 
-.mic, .search-icon{
+.search-icon{
   background: transparent;
   border: none;
   cursor: pointer;
+  margin-right: var(--space-2);
 }
 
 .user-input{
@@ -218,10 +219,4 @@ a:hover {
   color: var(--text);
   font-size: var(--text-lg);
   margin-right: 10px;
-}
-
-@media (min-width: 768px) {
-    .section-2{
-      margin-right: 150px;
-    }
 }
