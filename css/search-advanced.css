@@ -114,28 +114,22 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.5rem 3rem;
+    margin: 0 3rem;
 }
 
 .brand-logo{
     width: 20%;
 }
 
-.sign-in-button{
-    padding: 1rem 0;
-    border-radius: 100px;
-    font-size: var(--text-lg);
-    background-color: var(--primary);
-    color: var(--surface);
-    border: none;
-    cursor: pointer;
-
+.navigation-link{
+  text-decoration: none;
+  color: var(--text);
+  font-size: var(--text-lg);
+  margin-right: var(--space-2);
 }
 
-.sign-in-button a{
-    padding: 3rem 2rem;
-    color: var(--surface);
-    text-decoration: none;
+.navigation-link:hover{
+  text-decoration: none;
 }
 
 /* advanced search form */

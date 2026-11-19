@@ -15,7 +15,10 @@
     <!-- navigation section -->
     <div class="navigation">
         <a href="/index.html"><img src="/img/google-logo.png" alt="brand-logo" class="brand-logo"></a>
-        <button class="sign-in-button"><a href="https://accounts.google.com/">Sign In</a></button>
+        <div class="internal-links">
+            <a href="/index.html" class="navigation-link">Search</a>
+            <a href="/advanced-search.html" class="navigation-link">Images</a>  
+        </div>
     </div>
 
     <!-- advance search button -->
@@ -34,14 +37,14 @@
                 <input type="text" id="exact-phrase" name="as_epq">
             </div>
 
-            <div class="form-group">
-                <label for="none-words">None of these words:</label>
-                <input type="text" id="none-words" name="as_eq">
+             <div class="form-group">
+                <label for="any-words">Any of these words:</label>
+                <input type="text" id="any-words" name="as_oq">
             </div>
 
             <div class="form-group">
-                <label for="site-domain">Site or domain:</label>
-                <input type="text" id="site-domain" name="as_sitesearch">
+                <label for="none-words">None of these words:</label>
+                <input type="text" id="none-words" name="as_eq">
             </div>
 
             <button type="submit">Advanced Search</button>
